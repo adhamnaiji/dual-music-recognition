@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Generated datasets and database
+data/
+audio_samples/
+*.sqlite3
+
+# Local editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
